@@ -9,8 +9,9 @@ h1{
     font-family: 'Fredoka One', cursive;
 }
 #container{
+    padding-bottom: 20px;
     padding-top: 20px;
-    background-color: rgba(201, 195, 195, 0.849);
+    background-color: rgba(211, 211, 211, 0.253);
 }
 nav{
     border-top-left-radius: 5px;
@@ -18,6 +19,11 @@ nav{
     background-color: white;
     width: 60%;
     margin: auto;
+}
+hr{
+    border-width: 0px;
+    margin-bottom: 2px;
+    color: rgba(211, 211, 211, 0.253);
 }
 button{
     padding: 5px;
@@ -36,4 +42,67 @@ button{
     background-color: white;
     border-color: lightgrey;
     color: lightgrey;
+}
+main{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+section{
+    margin-left: 10%;
+}
+p{
+    font-weight: bold;
+    vertical-align: super;
+}
+#freccia{
+    font-size: small;
+}
+mark{
+    background-color: white;
+    margin-right: 10px;
+}
+#yes{
+    padding: 2px;
+    color: rgb(41, 173, 41);
+    border: 2px solid rgb(41, 173, 41);
+    border-radius: 100%;
+    
+}
+#no{
+    padding: 2px;
+    color: rgb(194, 23, 23);
+    border: 2px solid rgb(194, 23, 23);
+    border-radius: 100%;
+}
+section p span{
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    margin-left: 5px;
+}
+#ed{
+    background-color: rgb(19, 153, 243);
+}
+#q1{
+    background-color: purple;
+}
+#rec{
+    background-color: green;
+}
+#mob{
+    background-color: orange;
+}
+#ws{
+    background-color: palevioletred;
+}
+#sa{
+    background-color: greenyellow;
 }
