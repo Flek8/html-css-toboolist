@@ -1,0 +1,39 @@
+header{
+    height: fit-content;
+}
+h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    color: rgb(1, 2, 78);
+    font-family: 'Fredoka One', cursive;
+}
+#container{
+    padding-top: 20px;
+    background-color: rgba(201, 195, 195, 0.849);
+}
+nav{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+button{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#btn1{
+    margin-left: 10%;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: white;
+}
+#btn2{
+    background-color: white;
+    border-color: lightgrey;
+    color: lightgrey;
+}
